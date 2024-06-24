@@ -52,6 +52,6 @@ model.evaluate(x_test, y_test, verbose=2)
 # Save model to file
 if len(sys.argv) == 2:
     filename = sys.argv[1]
-    model.save( + '.keras')
-    print(f"Model saved to {filename}.keras.")
+    model.save( filename)
+    print(f"Model saved to {filename}")
     
